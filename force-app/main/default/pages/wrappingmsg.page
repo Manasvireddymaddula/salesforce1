@@ -1,0 +1,22 @@
+<apex:page controller="emailmsgsplit">
+    <apex:form id="abc">
+           <apex:panelGrid >
+      <apex:inputTextarea rows="10" cols="80" value="{!message}"/>
+        </apex:panelGrid>
+             <apex:commandButton value="extract" action="{!getMessage}" reRender="abc"/>
+        <br/>
+       <p>{!wsm.TextMessage}</p>
+         <p>{!wsm.Name}</p>
+         <p>{!wsm.LastName}</p>
+         <p>{!wsm.Email}</p>
+         <p>{!wsm.Phone}</p>
+         <p>{!wsm.Company}</p>
+         <p>{!wsm.Address}</p>
+        <p>{!wsm.Brand}</p>
+        <p>{!wsm.website}</p>
+         <p>{!wsm.City}</p>
+         <p>{!wsm.State}</p>
+         <p>{!wsm.Zip}</p>
+         <p>{!wsm.Comments}</p>
+    </apex:form>
+</apex:page>

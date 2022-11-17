@@ -1,0 +1,22 @@
+<apex:page Controller="caseinfo"  >
+    <apex:form >
+       <apex:pageBlock >
+            <apex:pageBlockSection columns="2">
+                <!--<apex:inputText value="{!searchbox}"label="Search"/>-->
+               <apex:inputText value="{!searchbox}" label="Search" />
+                <apex:commandButton value="Search" action="{!searchbox}"/>
+               
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:panelGrid >
+      <apex:inputTextarea rows="10" cols="80" value="{!searchbox}"/>
+             <apex:outputText value="{!result}" >
+                value={!wr.SuppliedName} 
+                 value={!wr.SuppliedEmail}
+                  value={!wr.Brand}
+                 value={!wr.website}
+                    value={!wr.SuppliedPhone}
+                </apex:outputText>
+        </apex:panelGrid>
+    </apex:form>
+</apex:page>
