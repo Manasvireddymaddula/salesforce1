@@ -9,8 +9,8 @@ public class caseinfo {
         
    
     /*added comments
-    // result=[SELECT SuppliedName,Brand__c,CaseNumber,SuppliedPhone,SuppliedEmail,website__c from Case where  CaseNumber=:searchbox ];
-        git*/
+
+    git*/
     public Wrappersplitmsg wsm{set;get;}
     public void getMessage()
     {
