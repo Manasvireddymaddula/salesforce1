@@ -8,7 +8,9 @@ public class caseinfo {
        // result=[SELECT SuppliedName,Brand__c,CaseNumber,SuppliedPhone,SuppliedEmail,website__c from Case where  CaseNumber=:searchbox ];
         
    
-    /*added comments*/
+    /*added comments
+
+    git*/
     public Wrappersplitmsg wsm{set;get;}
     public void getMessage()
     {
