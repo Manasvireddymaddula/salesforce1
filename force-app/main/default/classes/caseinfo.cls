@@ -9,6 +9,7 @@ public class caseinfo {
         
    
     /*added comments*/
+    //wrapper class
     public Wrappersplitmsg wsm{set;get;}
     public void getMessage()
     {
