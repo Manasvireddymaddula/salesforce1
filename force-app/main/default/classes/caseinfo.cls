@@ -10,7 +10,7 @@ public class caseinfo {
    
     /*added comments
 
-    git*/
+    git*//*creating wrapperclass*/
     public Wrappersplitmsg wsm{set;get;}
     public void getMessage()
     {
