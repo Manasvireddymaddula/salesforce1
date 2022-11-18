@@ -14,7 +14,7 @@ global class emailinbound  implements Messaging.InboundEmailHandler {
             List<String> resb1 = resb[0].split(' ');
             myCase.Brand__c = resb1[0];
         }    
-        //if statement                                
+//plain text                              
         if(myPlainText.containsIgnoreCase('website')){
             Integer x = myPlainText.indexOf('website:');
             
